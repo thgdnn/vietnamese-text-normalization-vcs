@@ -7,11 +7,13 @@ ViCleaner is a Python library for normalizing Vietnamese text for CodeLink's tex
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install vi_cleaner with Github link.
 
 ```bash
-pip install git+https://github.com/CodeLinkIO/Vietnamese-text-normalization.git@main
+pip install git+https://github.com/thgdnn/vietnamese-text-normalization-vcs.git
 ```
 
 ## Usage
+
 ### 1. Normalize Vietnamese text
+
 ```python
 from vi_cleaner.vi_cleaner import ViCleaner
 text = "Ngày 01/02 là ngày mùng 1 Tết , tôi thêm 1 tuổi mới,cao thêm 3 cm, được lì xì 1.000.000 đồng."
@@ -36,9 +38,11 @@ print(cleaner.join_lines(text))
 ### 3. Split sentence (to pieces)
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
+
 //
