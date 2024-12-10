@@ -10,6 +10,12 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install vi_clea
 pip install git+https://github.com/thgdnn/vietnamese-text-normalization-vcs.git
 ```
 
+In requirements.txt, you can add a line containing the GitHub link of the package you want to install.
+
+```bash
+-e git+https://github.com/thgdnn/vietnamese-text-normalization-vcs.git#egg=vi_cleaner
+```
+
 ## Usage
 
 ### 1. Normalize Vietnamese text
