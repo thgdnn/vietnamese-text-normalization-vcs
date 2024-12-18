@@ -3,7 +3,7 @@ import re
 from .symbol_vi import vietnamese_set
 
 _letter_key_vi = {
-    "a": "ây",
+    "a": "a",
     "b": "bê",
     "c": "xê",
     "d": "dê",
@@ -11,21 +11,21 @@ _letter_key_vi = {
     "f": "ép",
     "g": "gờ",
     "h": "hát",
-    "i": "ai",
-    "j": "chây",
-    "k": "kây",
+    "i": "i",
+    "j": "gi",
+    "k": "ka",
     "l": "lờ",
-    "m": "em mờ",
-    "n": "en nờ",
-    "o": "ô",
+    "m": "mờ",
+    "n": "nờ",
+    "o": "o",
     "p": "pê",
-    "q": "kiu",
+    "q": "quy",
     "r": "rờ",
     "s": "ét",
     "t": "ti",
     "v": "vi",
     "w": "vê kép",
-    "x": "ít",
+    "x": "ích",
     "z": "dét",
 }
 _letter_combine_re = "|".join(_letter_key_vi.keys())
